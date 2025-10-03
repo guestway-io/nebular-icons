@@ -1,6 +1,6 @@
 {
-  "name": "nebular-icons",
-  "version": "1.1.1",
+  "name": "@guestway-io/nebular-icons",
+  "version": "1.1.2",
   "description": "Nebular icons - amazing icons crafted with love by Akveo team",
   "author": "akveo",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "fonts/"
   ],
   "scripts": {
-    "build": "node ./src/scripts/build"
+    "build": "node ./src/scripts/build",
+    "release": "npm publish"
   }
 }
